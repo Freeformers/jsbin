@@ -107,9 +107,16 @@ var libraries = [
   },
   {
     'url': [
+      '//himera-emh.herokuapp.com/js/repl.js'
+    ],
+    'label': 'ClojureScript',
+    'group': 'ClojureScript'
+  },
+  {
+    'url': [
       '//code.jquery.com/jquery.min.js',
-      '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css',
-      '//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js'
+      '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css',
+      '//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'
     ],
     'label': 'Bootstrap Latest',
     'group': 'Bootstrap'
@@ -297,13 +304,13 @@ var libraries = [
     'group': 'Angular'
   },
   {
-    'url': '//fb.me/react-0.12.2.js',
-    'label': 'React 0.12.2',
+    'url': '//fb.me/react-0.13.1.js',
+    'label': 'React 0.13.1',
     'group': 'React'
   },
   {
-    'url': '//fb.me/react-with-addons-0.12.2.js',
-    'label': 'React with Add-Ons 0.12.2',
+    'url': '//fb.me/react-with-addons-0.13.1.js',
+    'label': 'React with Add-Ons 0.13.1',
     'group': 'React'
   },
   {
@@ -387,10 +394,16 @@ var libraries = [
   {
     'url': [
       '//code.jquery.com/jquery-1.11.1.min.js',
-      '//builds.handlebarsjs.com.s3.amazonaws.com/handlebars-v2.0.0.js',
-      '//builds.emberjs.com/tags/v1.9.0/ember.js'
+      '//builds.emberjs.com/tags/v1.11.3/ember-template-compiler.js',
+      '//builds.emberjs.com/tags/v1.11.3/ember.debug.js'
     ],
-    'label': 'Ember.js 1.9.0'
+    'label': 'Ember.js 1.11.3',
+    'group': 'Ember'
+  },
+  {
+    'url': '//builds.emberjs.com/tags/v1.0.0-beta.16.1/ember-data.js',
+    'label': 'Ember Data 1.0.0-beta.16.1',
+    'group': 'Ember'
   },
   {
     'url': 'https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css',
@@ -421,8 +434,8 @@ var libraries = [
     'label': 'Handlebars.js 1.0.0'
   },
   {
-    'url': '//cdnjs.cloudflare.com/ajax/libs/knockout/3.0.0/knockout-min.js',
-    'label': 'Knockout 3.0.0'
+    'url': '//cdnjs.cloudflare.com/ajax/libs/knockout/3.3.0/knockout-min.js',
+    'label': 'Knockout 3.3.0'
   },
   {
     'url': '//cdnjs.cloudflare.com/ajax/libs/less.js/1.3.3/less.min.js',
