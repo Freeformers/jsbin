@@ -99,6 +99,8 @@
     "dropbox_id",
     "beta",
     "flagged",
-    "last_seen"
+    "last_seen",
+    "real_name",
+    "vanity_name"
   ]
 }
